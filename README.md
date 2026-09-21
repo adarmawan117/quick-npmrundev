@@ -16,6 +16,7 @@ Folder ini berisi shortcut klik kanan Windows Explorer untuk menjalankan develop
 ├── run-dev.cmd             <-- Script runner cerdas yang dieksekusi saat klik kanan
 ├── react.ico               <-- Icon resmi React
 ├── Klik Kanan Context.jpg  <-- Screenshot tampilan context menu
+├── social-preview.png      <-- Banner social preview (GitHub & Open Graph)
 ├── registry/               <-- Arsip file mentah .reg (jangan klik ganda file di sini)
 │   ├── Add-RunDev-CMD.reg
 │   ├── Add-RunDev-Terminal.reg
