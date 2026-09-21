@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; ==============================================================
+; Uninstaller: Menghapus Run Dev dari Context Menu Explorer
+; ==============================================================
+
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\RunDev]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\RunDev]

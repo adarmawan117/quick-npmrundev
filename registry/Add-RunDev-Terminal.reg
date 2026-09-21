@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; ==============================================================
+; [Windows Terminal Version] Run Dev Context Menu
+; Bekerja menggunakan Windows Terminal (wt.exe)
+; ==============================================================
+
+; 1. Klik kanan pada FOLDER
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\RunDev]
+@="Run Dev"
+"Icon"="C:\\Users\\adarmawan117\\.icons\\react.ico"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\RunDev\command]
+@="wt.exe -d \"%1\" powershell -NoExit -Command \"npm run dev\""
+
+; 2. Klik kanan pada RUANG KOSONG (Background) di dalam folder
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\RunDev]
+@="Run Dev"
+"Icon"="C:\\Users\\adarmawan117\\.icons\\react.ico"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\RunDev\command]
+@="wt.exe -d \"%V\" powershell -NoExit -Command \"npm run dev\""
