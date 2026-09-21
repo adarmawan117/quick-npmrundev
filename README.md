@@ -2,21 +2,25 @@
 
 Folder ini berisi shortcut klik kanan Windows Explorer untuk menjalankan development server React / Next.js secara instan (0 ms tanpa lag) dengan icon resmi React.
 
+<p align="center">
+  <img src="./Klik%20Kanan%20Context.jpg" alt="Preview Run Dev Windows Explorer" width="340" />
+</p>
+
 ---
 
 ## 📁 Struktur File
 
 ```text
-resources/context-menu/
-├── install.bat          <-- [UTAMA] Cukup double-click file ini untuk install
-├── uninstall.bat        <-- [UNINSTALL] Double-click untuk mencopot shortcut
-├── run-dev.cmd          <-- Script runner cerdas yang dieksekusi saat klik kanan
-├── react.ico            <-- Icon resmi React
-├── registry/            <-- Arsip file mentah .reg (jangan klik ganda file di sini)
+├── install.bat             <-- [UTAMA] Cukup double-click file ini untuk install
+├── uninstall.bat           <-- [UNINSTALL] Double-click untuk mencopot shortcut
+├── run-dev.cmd             <-- Script runner cerdas yang dieksekusi saat klik kanan
+├── react.ico               <-- Icon resmi React
+├── Klik Kanan Context.jpg  <-- Screenshot tampilan context menu
+├── registry/               <-- Arsip file mentah .reg (jangan klik ganda file di sini)
 │   ├── Add-RunDev-CMD.reg
 │   ├── Add-RunDev-Terminal.reg
 │   └── Remove-RunDev.reg
-└── README.md            <-- Panduan teknis
+└── README.md               <-- Panduan teknis
 ```
 
 ---
